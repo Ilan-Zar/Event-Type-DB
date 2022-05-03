@@ -15,10 +15,8 @@ public class A02MiddleTier {
 	private static void makeConnection() throws SQLException {
 		String url = "/insert path to host here/";
 		String uname = "root";
-		//YOUR PASSWORD HERE -dont forget to change it to root1234 after
 		String password = "/insert password here/";
 
-		// register the driver
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
